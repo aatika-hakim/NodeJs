@@ -9,3 +9,5 @@
 
     const fs = require('fs');
     fs.writeFileSync("app.js","New file");
+
+    console.log(__filename);
